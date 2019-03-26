@@ -69,12 +69,6 @@ position: relative;
   margin-bottom: 20px;
 }
 
-header::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 #logo {
   background: #4aaaa5;
   float:left;
@@ -267,22 +261,35 @@ footer {
       margin: 0;
       }
 
+      .masthead {
+        margin: auto;
+      }
+
       nav {
       clear: both;
       width: 100%;
-      margin: 0;
+      margin: auto;
+      }
+
+      .wrapper {
+        margin: auto;
       }
 
       nav a {
-      text-align: center; 
+      text-align: center;
+      display: inline-block;
+      margin: auto;
+      line-height: 18px;
+      color: #999;
+      text-decoration: none;
+      border-left: 1px solid #efefef;
+      margin-top: 30px;
       }
       
-
-
+      
       .main-content {
       width: 38%;
-      margin: 0;
-      }
+       }
 
       .main-content img {
       width: 100%;
