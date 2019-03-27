@@ -261,14 +261,12 @@ footer {
       margin: 0;
       }
 
-      .masthead {
-        margin: auto;
-      }
 
       nav {
       clear: both;
       width: 100%;
       margin: auto;
+      text-align: center;
       }
 
       .wrapper {
